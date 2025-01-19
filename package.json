@@ -1,0 +1,31 @@
+{
+  "name": "file2qr",
+  "version": "1.0.0",
+  "description": "JS-powered tool to convert html (or other) files into QR codes.",
+  "main": "./file2qr.js",
+  "bin": {
+    "file2qr": "./bin/cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RussianDraco/File2QR.git"
+  },
+  "keywords": [
+    "QR",
+    "code",
+    "html",
+    "converter"
+  ],
+  "author": "Ivan S",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RussianDraco/File2QR/issues"
+  },
+  "homepage": "https://github.com/RussianDraco/File2QR#readme",
+  "dependencies": {
+    "qrcode": "^1.5.4"
+  }
+}
